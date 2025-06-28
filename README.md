@@ -1,39 +1,63 @@
-# Responsive Grid Layout
+# AJ & J Responsive Web Layout
 
-A responsive web layout using CSS Grid with three breakpoints for mobile, tablet and desktop views.
+A fully responsive website demonstrating modern web design principles.
 
 ## Features
 - Mobile-first responsive design
-- Optimized CSS Grid layout with:
-  - CSS variables for easy theming
-  - `will-change` and `contain` for performance
-  - Vendor prefixes for cross-browser support
-  - Minmax() for flexible column sizing
-- Three responsive breakpoints (mobile, tablet, desktop)
-- Semantic HTML5 structure
-- System font stack for performance
+- Clean semantic HTML5
+- Modern CSS with Grid and Flexbox
+- Accessible navigation
+- Cross-browser compatible
 
 ## Setup
 1. Clone this repository
 2. Open `index.html` in any modern browser
-3. Resize browser window to see responsive behavior
+3. No build tools or dependencies required
 
 ## Screenshots
-To capture screenshots:
-1. Open Chrome DevTools (F12)
-2. Use Device Toolbar (Ctrl+Shift+M)
-3. Test at different breakpoints:
-   - Mobile (<600px)
-   - Tablet (600-899px)
-   - Desktop (≥900px)
+![Desktop View](images/screenshots/desktop.png)
+![Tablet View](images/screenshots/tablet.png)
+![Mobile View](images/screenshots/mobile.png)
 
-## Browser Support
-Fully supported in:
-- Chrome (all versions supporting CSS Grid)
-- Firefox (all versions supporting CSS Grid)
-- Safari 10.1+
-- Edge 16+
+## Deployment
+To deploy this project:
 
-Partially supported with prefixes in:
-- IE 10/11 (with -ms- prefixes)
-- Older mobile browsers
+### GitHub Pages
+1. Create a GitHub repository
+2. Push these files to the `main` branch
+3. Go to Settings > Pages
+4. Select "Deploy from branch" and choose `main`
+
+### Netlify Deployment
+1. Sign up for a free Netlify account at https://app.netlify.com
+2. Drag and drop your project folder onto the Netlify dashboard
+   - Or connect your GitHub/GitLab repository:
+     a. Click "New site from Git"
+     b. Select your Git provider
+     c. Choose the repository
+     d. Leave build settings as default (no build command needed)
+     e. Click "Deploy site"
+3. Your site will be live at: `https://[your-site-name].netlify.app`
+4. For custom domains:
+   - Go to "Domain settings"
+   - Click "Add custom domain"
+   - Follow the verification steps
+
+> Note: Netlify automatically deploys updates when you push to your connected repository
+
+## Project Structure
+```
+.
+├── index.html
+├── home.html
+├── articles.html
+├── about.html
+├── contact.html
+├── README.md
+├── css/
+│   └── style.css
+└── images/
+    └── screenshots/
+        ├── desktop.png
+        ├── tablet.png
+        └── mobile.png
