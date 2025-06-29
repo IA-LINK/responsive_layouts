@@ -3,11 +3,11 @@ Here is the **combined and refined `README.md`** for your **AJ & J Responsive We
 ---
 
 ```markdown
-# AJ & J Responsive Web Layout
+AJ & J Responsive Web Layout
 
 A fully responsive and accessible website showcasing modern web design principles. This layout is ideal for blogs, article-based sites, or educational content. It demonstrates semantic HTML5 structure, CSS Grid & Flexbox layout, and mobile-first responsiveness without requiring build tools or frameworks.
 
-## 🌟 Features
+ 🌟 Features
 
 - ✅ Mobile-first responsive design
 - 🧱 Clean semantic HTML5
@@ -18,7 +18,7 @@ A fully responsive and accessible website showcasing modern web design principle
 - 📰 Dynamic article grid and featured content
 - 📌 Sidebar with quick links
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 
@@ -39,7 +39,7 @@ A fully responsive and accessible website showcasing modern web design principle
 
 ````
 
-## 🛠 Setup
+ 🛠 Setup
 
 1. Clone this repository:
    ```bash
@@ -49,15 +49,15 @@ A fully responsive and accessible website showcasing modern web design principle
 2. Open `index.html` in any modern browser.
 3. No dependencies or build tools required – works out of the box.
 
-## 📸 Screenshots
+ 📸 Screenshots
 
 | Desktop                                         | Tablet                                        | Mobile                                        |
 | ----------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
 | ![Desktop View](images/screenshots/desktop.png) | ![Tablet View](images/screenshots/tablet.png) | ![Mobile View](images/screenshots/mobile.png) |
 
-## 🚀 Deployment
+ 🚀 Deployment
 
-### 🔹 GitHub Pages
+ 🔹 GitHub Pages
 
 1. Create a GitHub repository.
 2. Push these files to the `main` branch.
@@ -66,7 +66,7 @@ A fully responsive and accessible website showcasing modern web design principle
 
 Your site will be live at `https://your-username.github.io/your-repo-name`.
 
-### 🔸 Netlify Deployment
+ 🔸 Netlify Deployment
 
 1. Sign up at [Netlify](https://app.netlify.com).
 2. Drag & drop your project folder onto the dashboard
@@ -85,13 +85,13 @@ Your site will be live at `https://your-username.github.io/your-repo-name`.
 
 > 💡 Netlify auto-deploys your changes whenever you push to your linked repository.
 
-## 📌 Customization Tips
+ 📌 Customization Tips
 
 * Replace `https://via.placeholder.com/...` images with real assets
 * Update articles and content blocks in the HTML files
 * Add integrations (e.g. newsletter logic) using services like Formspree, Mailchimp, etc.
 
-## 📄 License
+ 📄 License
 
 MIT License © 2025 AJ & J Team
 

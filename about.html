@@ -1,17 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | AJ & J Responsive Web</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | AJ & J Responsive Web</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #6bb2e2;
+      color: #222;
+    }
+
+    /* Header */
+    .site-header {
+      background: #9656b4;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .site-header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .site-header a {
+      color: #faf7f7;
+      text-decoration: none;
+    }
+
+    .menu-toggle {
+      background: none;
+      border: none;
+      font-size: 1.75rem;
+      cursor: pointer;
+      display: none;
+    }
+
+    .main-nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-nav a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #eee6e6;
+    }
+
+    /* Main content */
+    .layout {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .contact-form {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group textarea {
+      height: 120px;
+    }
+
+    .contact-form button {
+      background-color: #0077cc;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    .site-footer {
+      background-color: #1a1a1a;
+      color: #eee;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .footer-content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .social-links a {
+      margin: 0 0.5rem;
+      color: #eee;
+      text-decoration: none;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      .main-nav {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .main-nav.active {
+        display: flex;
+      }
+
+      .main-nav ul {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Header -->
   <header class="site-header">
     <div class="header-container">
       <h1><a href="index.html">AJ & J Responsive Web</a></h1>
       <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-      <nav class="main-nav">
+      <nav class="main-nav" id="main-nav">
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="articles.html">Articles</a></li>
@@ -22,50 +176,50 @@
     </div>
   </header>
 
+  <!-- Main -->
   <main class="layout">
     <section class="content-section">
-      <h2 class="section-title">About Us</h2>
-      <article class="article-card">
-        <h3>Our Mission</h3>
-        <p>We are a passionate team of web developers and designers dedicated to creating beautiful, responsive websites that deliver exceptional user experiences across all devices.</p>
-        
-        <h3>Our Approach</h3>
-        <p>We combine cutting-edge web technologies with thoughtful design to build websites that are:</p>
-        <ul>
-          <li>Fully responsive across mobile, tablet and desktop</li>
-          <li>Fast-loading and performance optimized</li>
-          <li>Accessible to all users</li>
-          <li>Search engine friendly</li>
-        </ul>
-
-        <h3>Our Team</h3>
-        <p>With over 10 years combined experience in web development, our team brings expertise in HTML5, CSS3, JavaScript and modern frameworks to every project.</p>
-      </article>
+      <h2 class="section-title">Contact Us</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-content">
       <div class="social-links">
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://github.com" target="_blank">Github</a>
       </div>
       <p>© 2025 AJ & J Responsive Website. All rights reserved.</p>
     </div>
   </footer>
 
+  <!-- Toggle Script -->
   <script>
-    const menuToggle = document.querySelector('.menu-toggle');
-    const mainNav = document.getElementById('main-nav');
-    
-    menuToggle.addEventListener('click', function() {
-      const isOpen = this.getAttribute('aria-expanded') === 'true';
-      this.setAttribute('aria-expanded', !isOpen);
-      document.querySelector('.site-header').classList.toggle('nav-open');
-      mainNav.setAttribute('aria-hidden', isOpen);
+    const toggleBtn = document.querySelector('.menu-toggle');
+    const nav = document.getElementById('main-nav');
+
+    toggleBtn.addEventListener('click', () => {
+      nav.classList.toggle('active');
     });
   </script>
+
 </body>
 </html>
