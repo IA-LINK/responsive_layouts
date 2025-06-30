@@ -2,126 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Home | FUE Olosoho</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #004080;
-      color: white;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .top-bar-icons span {
-      margin-left: 10px;
-    }
-    .nav-links {
-      background: #f2f2f2;
-      padding: 10px 20px;
-      text-align: center;
-    }
-    .nav-links a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #004080;
-      font-weight: bold;
-    }
-    .logo-section {
-      background: #e6f2ff;
-      padding: 20px;
-      text-align: center;
-    }
-    .logo-text {
-      font-size: 24px;
-      font-weight: bold;
-      color: #004080;
-    }
-    .hero {
-      padding: 50px;
-      text-align: center;
-      background: #cce6ff;
-    }
-    .hero h1 {
-      margin: 0;
-      color: #003366;
-    }
-    .card-section {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 30px;
-      flex-wrap: wrap;
-    }
-    .card {
-      background: #f9f9f9;
-      border: 1px solid #ddd;
-      padding: 20px;
-      width: 250px;
-      text-align: center;
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-    }
-    .card h2 {
-      margin-top: 0;
-    }
-    .card a {
-      color: #004080;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .footer-bottom {
-      background: #004080;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Federal University Education Olosoho</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header>
-    <span>support@fueo.edu.ng</span>
-    <div class="top-bar-icons">
-      <span>📇</span>
-      <span>👥</span>
+
+  <!-- ====== HEADER ====== -->
+  <header class="top-bar">
+    <div class="top-contact">
+      <a href="mailto:support@fue.edu.ng">support@fueo.edu.ng</a>
+    </div>
+
+    <div class="nav-container">
+      <div class="logo">Federal University Education Olosoho</div>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="admission.html">Admissions</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="dropdown">
+          <a href="admission.html">Admission ▾</a>
+          <div class="dropdown-content">
+            <a href="admission.html#requirements">Requirements</a>
+            <a href="admission.html#apply">Apply Now</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="student.html">Student ▾</a>
+          <div class="dropdown-content">
+            <a href="student.html#portal">Student Portal</a>
+            <a href="student.html#results">Results</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
     </div>
   </header>
 
-  <nav class="nav-links">
-    <a href="home.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <div class="logo-section">
-    <div class="logo-text">Federal University of Education Olosoho</div>
-  </div>
-
-  <section class="hero">
-    <h1>Welcome to FUE Olosoho 3rd International Conference</h1>
-  </section>
-
-  <section class="card-section">
-    <div class="card">
-      <h2>Education Leaders</h2>
-      <a href="#">View More →</a>
-    </div>
-    <div class="card">
-      <h2>Research Publications</h2>
-      <a href="#">View More →</a>
-    </div>
-    <div class="card">
-      <h2>Book Library & Store</h2>
-      <a href="#">View More →</a>
+  <!-- ====== IMAGE GALLERY SECTION ====== -->
+  <section class="gallery">
+    <div class="gallery-container">
+      <h2>Campus Gallery</h2>
+      <div class="gallery-grid">
+        <img src="assets/images/Desktop.png" alt="Campus Image 1" />
+        <img src="assets/images/Mobile.png" alt="Campus Image 2" />
+        <img src="assets/images/Tablet.png" alt="Campus Image 3" />
+        <img src="assets/images/Desktop.png" alt="Campus Image 4" />
+      </div>
     </div>
   </section>
 
-  <footer class="footer-bottom">
-    &copy; 2025 Federal University of Education Olosoho. All rights reserved.
+  <!-- ====== NEWSLETTER SECTION ====== -->
+  <section class="newsletter">
+    <div class="newsletter-container">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with the latest news, admissions info, and events from Federal University Education Olosoho.</p>
+      <form class="newsletter-form">
+        <input type="email" name="email" placeholder="Enter your email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="admission.html">Admissions</a>
+        <a href="student.html">Student Portal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>Email: <a href="mailto:support@fueo.edu.ng">support@fueo.edu.ng</a></p>
+        <p>Phone: +234 000 000 0000</p>
+        <p>Address: Federal University Education Olosoho, Nasarawa State</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Federal University Education Olosoho. All rights reserved.
+    </div>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById("navLinks");
+      navLinks.classList.toggle("show");
+    }
+  </script>
 </body>
 </html>
