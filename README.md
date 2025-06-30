@@ -1,4 +1,58 @@
-Here is the **combined and refined `README.md`** for your **AJ & J Responsive Web Layout** project, merging both versions into a cohesive and professional document:
+
+
+Federal University Education Olosoho Website
+This is a responsive front-end website for the fictional Federal University Education Olosoho, designed using HTML, CSS, and JavaScript. It showcases the university's features such as admissions, student portal, gallery, and contact information.
+🌐 Live Preview
+(Optional – Add your deployment URL here if hosted on GitHub Pages, Vercel, Netlify, etc.)
+
+📁 Project Structure
+project-root/
+├── index.html
+├── about.html
+├── admission.html
+├── contact.html
+├── student.html
+├── css/
+│   └── styles.css
+├── assets/
+│   └── images/
+│       ├── Desktop.png
+│       ├── Mobile.png
+│       └── Tablet.png
+
+📌 Features
+    • ✅ Responsive design across desktop, tablet, and mobile
+    • ✅ Dropdown menus for Admission and Student sections
+    • ✅ Gallery section with campus images
+    • ✅ Newsletter subscription form
+    • ✅ Contact information and social links in the footer
+    • ✅ Accessible layout with semantic HTML5
+
+🛠 Technologies Used
+    • HTML5 – Structure
+    • CSS3 – Styling and responsiveness
+    • Vanilla JavaScript – Menu toggle functionality
+
+🚀 How to Use
+    1. Clone the Repository
+       git clone https://github.com/IA-LINK/responsive_layouts
+       
+    2. Open in Browser
+Simply open index.html in any modern web browser.
+
+📷 Screenshots
+(Optional – Add screenshots of the desktop, tablet, and mobile views)
+
+✍️ Author
+Ikwogya Ayika James
+Email: jyc.kom@gmail.com
+Phone: 07077390949
+
+📜 License
+This project is for educational purposes only. Feel free to customize it for your institution or portfolio.
+
+Let me know if you’d like the README exported as a downloadable file or formatted for GitHub display.
+
 
 ---
 

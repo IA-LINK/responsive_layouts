@@ -2,243 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact | AJ & J Responsive Web</title>
+  <title>Contact | FUE Olosoho</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f4f6f8;
-      color: #0f0f0f;
-    }
-
-    .site-header {
-      background: #8faec7;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    .header-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 1rem 1.5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .header-container h1 {
-      font-size: 1.8rem;
-      font-weight: 700;
       margin: 0;
     }
-
-    .header-container a {
-      color: #f1eeee;
+    header, .footer-bottom {
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+    }
+    .top-bar-icons span {
+      margin-left: 10px;
+    }
+    .nav-links {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+    .nav-links a {
+      margin: 0 15px;
+      color: #004080;
       text-decoration: none;
-    }
-
-    .menu-toggle {
-      background: none;
-      border: none;
-      font-size: 1.75rem;
-      cursor: pointer;
-      display: none;
-    }
-
-    .main-nav {
-      display: flex;
-    }
-
-    .main-nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-      margin: 0;
-      padding: 0;
-    }
-
-    .main-nav a {
-      text-decoration: none;
-      font-weight: 500;
-      color: #f7f4f4;
-    }
-
-    /* Responsive styles */
-    @media (max-width: 768px) {
-      .menu-toggle {
-        display: block;
-      }
-
-      .main-nav {
-        width: 100%;
-        display: none;
-        flex-direction: column;
-      }
-
-      .site-header.nav-open .main-nav {
-        display: flex;
-      }
-
-      .main-nav ul {
-        flex-direction: column;
-        gap: 1rem;
-        padding-top: 1rem;
-      }
-
-      .main-nav a {
-        padding: 0.5rem 0;
-      }
-    }
-
-    .layout {
-      max-width: 1200px;
-      margin: 2rem auto;
-      padding: 0 1.5rem;
-    }
-
-    .section-title {
-      font-size: 2rem;
-      margin-bottom: 2rem;
       font-weight: bold;
-      color: #222;
     }
-
-    .contact-form {
-      background: #fff;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    .logo-section {
+      background: #e6f2ff;
+      padding: 20px;
+      text-align: center;
     }
-
-    .form-group {
-      margin-bottom: 1.5rem;
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: #004080;
     }
-
-    .form-group label {
-      display: block;
-      margin-bottom: 0.5rem;
+    .cta {
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
     }
-
-    .form-group input,
-    .form-group textarea {
+    .cta h3 {
+      color: #003366;
+      text-align: center;
+    }
+    .cta form {
+      margin-top: 20px;
+    }
+    .cta input, .cta textarea {
       width: 100%;
-      padding: 0.75rem;
+      padding: 10px;
+      margin-bottom: 15px;
       border: 1px solid #ccc;
       border-radius: 5px;
     }
-
-    .form-group textarea {
-      height: 120px;
-    }
-
-    .contact-form button {
-      background-color: #0077cc;
+    .cta button {
+      padding: 10px 20px;
+      background: #004080;
       color: white;
-      padding: 0.75rem 1.5rem;
       border: none;
       border-radius: 5px;
-      font-weight: bold;
       cursor: pointer;
     }
-
-    .site-footer {
-      background-color: #1a1a1a;
-      color: #eee;
-      padding: 2rem 1.5rem;
-      text-align: center;
-      margin-top: 3rem;
-    }
-
-    .footer-content {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-
-    .social-links {
-      margin-bottom: 1rem;
-    }
-
-    .social-links a {
-      margin: 0 0.5rem;
-      color: #eee;
-      text-decoration: none;
-    }
-
-    .footer-content p {
-      margin: 0;
+    .cta button:hover {
+      background: #00264d;
     }
   </style>
 </head>
 <body>
-
-  <!-- Header -->
-  <header class="site-header">
-    <div class="header-container">
-      <h1><a href="index.html">AJ & J Responsive Web</a></h1>
-      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
-      <nav class="main-nav" id="main-nav" aria-hidden="true">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+  <header>
+    <span>support@fueo.edu.ng</span>
+    <div class="top-bar-icons">
+      <span>📇</span>
+      <span>👥</span>
     </div>
   </header>
 
-  <!-- Main -->
-  <main class="layout">
-    <section class="content-section">
-      <h2 class="section-title">Contact Us</h2>
-      <form class="contact-form">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
-        </div>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-  </main>
+  <nav class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-content">
-      <div class="social-links">
-        <a href="https://twitter.com" target="_blank">Twitter</a>
-        <a href="https://facebook.com" target="_blank">Facebook</a>
-        <a href="https://instagram.com" target="_blank">Instagram</a>
-        <a href="https://github.com" target="_blank">Github</a>
-      </div>
-      <p>© 2025 AJ & J Responsive Website. All rights reserved.</p>
-    </div>
+  <div class="logo-section">
+    <div class="logo-text">Federal University of Education Olosoho</div>
+  </div>
+
+  <section class="cta">
+    <h3>Get in Touch</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer-bottom">
+    &copy; 2025 Federal University of Education Olosoho. All rights reserved.
   </footer>
-
-  <!-- Toggle Script -->
-  <script>
-    const toggle = document.querySelector('.menu-toggle');
-    const header = document.querySelector('.site-header');
-    const nav = document.getElementById('main-nav');
-
-    toggle.addEventListener('click', () => {
-      const isOpen = header.classList.contains('nav-open');
-      header.classList.toggle('nav-open');
-      toggle.setAttribute('aria-expanded', String(!isOpen));
-      nav.setAttribute('aria-hidden', String(isOpen));
-    });
-  </script>
-
 </body>
 </html>
