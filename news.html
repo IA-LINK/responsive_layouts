@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>News - Federal University of Education, Olosoho</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .site-header {
+      background-color: #004080;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .site-nav {
+      background-color: #003060;
+    }
+
+    .site-nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+
+    .site-nav ul li {
+      margin: 0 1rem;
+    }
+
+    .site-nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .site-nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .main-grid {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .news-article {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .news-article img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .news-article .content {
+      padding: 1rem;
+    }
+
+    .news-article h3 {
+      margin-bottom: 0.5rem;
+      color: #004080;
+    }
+
+    .news-article p.date {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 1rem;
+    }
+
+    .news-article p {
+      margin-bottom: 0.5rem;
+    }
+
+    .site-footer {
+      background-color: #003060;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .site-nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Federal University of Education, Olosoho</h1>
+  </header>
+
+  <nav class="site-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="tetfund.html">TETFund</a></li>
+      <li><a href="elearning.html">e-Learning</a></li>
+      <li><a href="key-data.html">Key Institutional Data</a></li>
+    </ul>
+  </nav>
+
+  <main class="main-grid">
+    <div class="news-article">
+      <img src="https://source.unsplash.com/featured/?university,lecture" alt="Lecture Hall">
+      <div class="content">
+        <h3>2025/2026 Academic Session Kicks Off</h3>
+        <p class="date">June 15, 2025</p>
+        <p>Federal University of Education, Olosoho has officially commenced its 2025/2026 academic session with orientation programs and academic activities already in full swing.</p>
+      </div>
+    </div>
+
+    <div class="news-article">
+      <img src="https://source.unsplash.com/featured/?graduation" alt="Convocation">
+      <div class="content">
+        <h3>Convocation Ceremony Scheduled for August</h3>
+        <p class="date">June 2, 2025</p>
+        <p>The 2nd Convocation Ceremony of the university will be held on August 10, 2025, with dignitaries from across the country expected to attend.</p>
+      </div>
+    </div>
+
+    <div class="news-article">
+      <img src="https://source.unsplash.com/featured/?library,students" alt="Library Renovation">
+      <div class="content">
+        <h3>New Digital Library Commissioned</h3>
+        <p class="date">May 22, 2025</p>
+        <p>A state-of-the-art digital library has been inaugurated to provide students with seamless access to global academic resources and journals.</p>
+      </div>
+    </div>
+
+    <div class="news-article">
+      <img src="https://source.unsplash.com/featured/?research,science" alt="Research Funding">
+      <div class="content">
+        <h3>University Secures ₦250 Million Research Grant</h3>
+        <p class="date">May 10, 2025</p>
+        <p>Through TETFund, the university received a ₦250 million grant to support ongoing research in education technology and curriculum innovation.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Federal University of Education, Olosoho. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

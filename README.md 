@@ -1,0 +1,156 @@
+README.md — Responsive HTML/CSS Website using CSS Grid
+
+# Federal University of Education, Olosoho – Responsive Website
+
+This is a fully responsive multi-page HTML/CSS website for a fictional institution called **Federal University of Education, Olosoho**. Built using **CSS Grid**, the layout adapts beautifully across desktop, tablet, and mobile devices.
+
+## 🔧 Features
+
+- ✅ Responsive layout using CSS Grid
+- ✅ Cross-browser compatible
+- ✅ Semantic HTML5 elements
+- ✅ Multiple pages (Home, About, News, Admissions, etc.)
+- ✅ Accessible and mobile-friendly
+
+## 🌐 Live Demo
+
+👉 [Click here to view the live site] http://ia-link.github.io/responsive_layouts
+
+## 🖥️ Screenshots
+
+### 💻 Desktop View
+![Desktop View](screenshots/desktop-view.png)
+
+### 📱 Tablet View
+![Tablet View](screenshots/tablet-view.png)
+
+### 📱 Mobile View
+![Mobile View](screenshots/mobile-view.png)
+
+## 📁 Project Structure
+
+/
+├── index.html
+├── about.html
+├── admissions.html
+├── news.html
+├── resources.html
+├── elearning.html
+├── key-data.html
+├── css/
+│ └── styles.css
+├── images/
+│ └── (optional hero/banner images)
+└── screenshots/
+└── (responsive screenshots)
+
+bash
+Copy
+Edit
+
+## 📦 Setup Instructions
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/IA-LINK/responsive_layouts
+Open index.html in your browser or deploy to GitHub Pages / Netlify.
+
+✨ License
+MIT License – Free to use for learning purposes.
+https://github.com/IA-LINK/responsive_layouts
+
+🌍 Federal University of Education, Olosoho – Responsive Website
+
+This is a sample **responsive website** built using **HTML5** and **CSS3**, showcasing a fictional university:  
+
+**Federal University of Education, Olosoho**.
+
+It uses **CSS Grid** and responsive design techniques to adapt smoothly across different screen sizes.
+
+---
+
+## 📂 Pages Included
+
+The website is composed of the following HTML pages:
+
+- `index.html` — Home / Welcome Page  
+- `about.html` — About the University  
+- `academics.html` — Academic Programs  
+- `admissions.html` — Admissions Information  
+- `news.html` — Latest News and Events  
+- `resources.html` — Student & Staff Resources  
+- `tetfund.html` — TETFund Initiatives  
+- `elearning.html` — e-Learning Portal  
+- `key-data.html` — Key Institutional Data  
+
+Each page includes a shared navigation bar and footer.
+
+---
+
+## 🛠️ Built With
+
+- **HTML5** – Semantic structure
+- **CSS3** – Styling, layout, and responsiveness
+  - **CSS Grid** – Main layout structure
+  - **Media Queries** – Responsive design for mobile/tablet/desktop
+
+---
+
+## 💡 Features
+
+✅ Responsive design (mobile-friendly)  
+✅ Modern layout using CSS Grid  
+✅ Internal and external CSS supported  
+✅ Clean navigation structure  
+✅ Sample institutional content
+
+---
+
+## 📁 Folder Structure
+
+fue-olosoho-website/
+├── index.html
+├── about.html
+├── academics.html
+├── admissions.html
+├── news.html
+├── resources.html
+├── tetfund.html
+├── elearning.html
+├── key-data.html
+└── css/
+└── styles.css
+
+Copy
+Edit
+
+---
+
+## 🚀 How to Run
+
+1. Download or clone the repository.
+2. Open any `.html` file (starting with `index.html`) in your web browser.
+3. View it on different screen sizes to see the responsive behavior.
+
+---
+
+## 🔮 Future Ideas
+
+- Add JavaScript for interactivity
+- Implement a contact form
+- Add image sliders or carousels
+- Integrate with a CMS (WordPress, Strapi, etc.)
+
+---
+
+ 📄 License
+
+This project is open for **learning and personal use**.  
+Feel free to customize or extend it for your own HTML/CSS practice.
+
+---
+
+ 🙋‍♂️ Author
+
+Created by **JAMES AYIKA IKWOGYA**  
+Built for educational purposes using HTML and CSS Grid.

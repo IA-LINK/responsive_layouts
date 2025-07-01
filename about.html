@@ -2,209 +2,134 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>About | FUE Olosoho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Federal University of Education, Olosoho</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
     }
 
-    header, .footer-bottom {
-      background-color: #004080;
-      color: white;
-      padding: 10px 20px;
-    }
-
-    .top-bar-icons span {
-      margin-left: 10px;
-    }
-
-    .nav-links {
-      background-color: #f2f2f2;
-      padding: 10px;
-      text-align: center;
-    }
-
-    .nav-links a {
-      margin: 0 15px;
-      color: #004080;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .logo-section {
-      background: #e6f2ff;
+    .site-header {
+      background-color: #003366;
+      color: #fff;
       padding: 20px;
       text-align: center;
     }
 
-    .logo-text {
-      font-size: 24px;
-      font-weight: bold;
-      color: #004080;
+    .site-nav {
+      background-color: #004080;
     }
 
-    .about {
-      padding: 40px 20px;
-      line-height: 1.6;
+    .site-nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .site-nav ul li {
+      margin: 0;
+    }
+
+    .site-nav ul li a {
+      display: block;
+      padding: 14px 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .site-nav ul li a:hover {
+      background-color: #0059b3;
+    }
+
+    .main-grid {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
     }
 
     .about h2 {
       color: #003366;
     }
 
-    footer {
-      background-color: #f2f2f2;
-      padding: 40px 20px 20px;
-      color: #333;
-    }
-
-    .footer-content {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .footer-col {
-      flex: 1 1 250px;
-      margin-bottom: 20px;
-    }
-
-    .footer-col h4 {
-      font-size: 16px;
-      color: #004080;
-      margin-bottom: 10px;
-    }
-
-    .footer-col a {
-      display: block;
-      color: #333;
-      text-decoration: none;
-      margin-bottom: 5px;
-    }
-
-    .footer-col a:hover {
-      text-decoration: underline;
-    }
-
-    /* ========== Gallery Section ========== */
-    .gallery {
-      background-color: #fff;
-      padding: 40px 20px;
+    .site-footer {
+      background-color: #003366;
+      color: #fff;
       text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
     }
 
-    .gallery h2 {
-      font-size: 28px;
-      color: #003366;
-      margin-bottom: 30px;
-    }
-
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 20px;
-      justify-items: center;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    .gallery-grid img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 4px solid #eee;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
-
-    .gallery-grid img:hover {
-      transform: scale(1.05);
-    }
-
-    @media (max-width: 600px) {
-      .gallery-grid img {
-        width: 120px;
-        height: 120px;
+    @media (min-width: 768px) {
+      .main-grid {
+        grid-template-columns: repeat(2, 1fr);
       }
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <span>support@fueo.edu.ng</span>
-    <div class="top-bar-icons">
-      <span>📇</span>
-      <span>👥</span>
-    </div>
+  <header class="site-header">
+    <h1>Federal University of Education, Olosoho</h1>
   </header>
 
-  <nav class="nav-links">
-    <a href="home.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+  <nav class="site-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="tetfund.html">TETFund</a></li>
+      <li><a href="elearning.html">e-Learning</a></li>
+      <li><a href="key-data.html">Key Institutional Data</a></li>
+    </ul>
   </nav>
 
-  <div class="logo-section">
-    <div class="logo-text">Federal University of Education Olosoho</div>
-  </div>
+  <main class="main-grid">
+    <section class="about">
+      <h2>About the University</h2>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
 
-  <section class="about">
-    <h2>About the Conference</h2>
-    <p>
-      The 3rd International Conference hosted by Federal University of Education, Olosoho, brings together thought leaders in pedagogy, educational reform, and curriculum advancement to share insights and promote academic development in Nigeria and beyond.
-      <!-- You can trim down the content or paginate later -->
-    </p>
-  </section>
 
-  <!-- ====== IMAGE GALLERY SECTION ====== -->
-  <section class="gallery">
-    <h2>Campus Gallery</h2>
-    <div class="gallery-grid">
-      <img src="assets/images/Desktop.png" alt="Campus 1">
-      <img src="assets/images/Tablet.png" alt="Campus 2">
-      <img src="assets/images/Mobile.png" alt="Campus 3">
-      <img src="assets/images/Desktop.png" alt="Campus 4">
-      <img src="assets/images/Mobile.png" alt="Campus 5">
-      <img src="assets/images/Tablet.png" alt="Campus 6">
-    </div>
-  </section>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
 
-  <!-- ====== FOOTER ====== -->
-  <footer>
-    <div class="footer-content">
-      <div class="footer-col">
-        <h4>Quick Links</h4>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="admission.html">Admissions</a>
-        <a href="student.html">Student Portal</a>
-        <a href="contact.html">Contact</a>
-      </div>
 
-      <div class="footer-col">
-        <h4>Contact Us</h4>
-        <p>Email: <a href="mailto:support@fueo.edu.ng">support@fueo.edu.ng</a></p>
-        <p>Phone: +234 000 000 0000</p>
-        <p>Address: Federal University Education Olosoho, Nasarawa State</p>
-      </div>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
 
-      <div class="footer-col">
-        <h4>Follow Us</h4>
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">YouTube</a>
-      </div>
-    </div>
 
-    <div class="footer-bottom">
-      &copy; 2025 Federal University Education Olosoho. All rights reserved.
-    </div>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+      <p>The Federal University of Education, Olosoho provides world-class training for teachers and educational professionals.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Federal University of Education, Olosoho. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
